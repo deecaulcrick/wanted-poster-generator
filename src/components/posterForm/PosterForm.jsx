@@ -65,7 +65,7 @@ const PosterForm = () => {
               onChange={handleNameChange}
             />
           </div>
-          <label for="image">Upload your pirate photo</label> <br></br>
+          <label>Upload your pirate photo</label> <br></br>
           <div className={styles.image__upload__container}>
             <div
               className={styles.image__upload}
