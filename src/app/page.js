@@ -37,14 +37,7 @@ export default function Home() {
                 Twitter
               </a>
             </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/deborah-caulcrick"
-                target="_blank"
-              >
-                LinkedIn
-              </a>
-            </li>
+           
             <li>
               <a href="https://instagram.com/deecaulcrick" target="_blank">
                 Instagram
