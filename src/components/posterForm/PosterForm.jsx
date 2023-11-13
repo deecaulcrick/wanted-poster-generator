@@ -37,7 +37,8 @@ const PosterForm = () => {
     setBounty(e.target.value);
   };
 
-  const handleGenerateProfile = () => {
+  const handleGenerateProfile = (e) => {
+    e.preventDefault();
     if (name && image !== "") {
       // const img = document.createElement("img");
       // img.src = canvas.toDataURL("image/png");

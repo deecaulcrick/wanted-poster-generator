@@ -36,6 +36,7 @@
   font-size: 130px;
   font-weight: 400;
   letter-spacing: -0.05em;
+  line-height: 1.1em;
   margin-top: -20px;
   text-transform: uppercase;
 }
@@ -133,25 +134,29 @@
   .dead__or__alive {
     font-size: 1em;
     letter-spacing: 0.5em;
+    margin-top: 10px;
   }
-  
+
   .pirate__name {
     font-size: 40px;
     letter-spacing: -0.05em;
     margin-top: 0px;
   }
-  
+
   .bounty {
     font-size: 22px;
     letter-spacing: 0.15em;
   }
-  
+
   .berries {
     width: 20px;
     margin-right: 15px;
   }
-  
-  
+
+  .footer {
+    margin-top: 20px;
+  }
+
   .footer h4 {
     text-transform: uppercase;
     font-size: 6px;
@@ -159,7 +164,7 @@
     text-align: left;
     width: 60%;
   }
-  
+
   .marine {
     font-size: 30px;
     font-weight: 400;
@@ -176,6 +181,9 @@
 }
 
 @media only screen and (max-width: 3780px) {
+  .pirate__name {
+    font-size: 35px;
+  }
   .footer h4 {
     text-transform: uppercase;
     font-size: 5.5px;
@@ -183,7 +191,7 @@
     text-align: left;
     width: 60%;
   }
-  
+
   .marine {
     font-size: 28px;
     font-weight: 400;
