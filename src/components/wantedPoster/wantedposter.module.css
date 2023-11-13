@@ -1,0 +1,192 @@
+.poster__container {
+  width: 1080px;
+  min-height: 1350px;
+  margin-top: 50px;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+
+.wanted {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 220px;
+  letter-spacing: -0.05em;
+  margin-top: -50px;
+  padding: 0px;
+}
+.wanted__img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+.dead__or__alive {
+  font-size: 3em;
+  letter-spacing: 0.9em;
+  text-align: center;
+}
+
+.pirate__name {
+  font-size: 130px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+.bounty {
+  font-size: 4em;
+  letter-spacing: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.berries {
+  width: 50px;
+  margin-right: 15px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: -0.05em;
+  text-align: left;
+  width: 60%;
+}
+
+.marine {
+  font-size: 6em;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+.btn__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 80px;
+}
+
+.buttons {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 100%;
+  height: 60px;
+  border-radius: 48px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.buttons:hover {
+  transform: scale(0.98);
+}
+
+.share__btn {
+  background-color: white;
+  color: black;
+}
+
+.download__btn {
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+  .poster__container {
+    width: 100%;
+    min-height: 500px;
+    padding: 20px 30px;
+  }
+
+  .wanted {
+    font-size: 80px;
+    letter-spacing: -0.05em;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .wanted__img {
+    height: 250px;
+  }
+
+  .dead__or__alive {
+    font-size: 1em;
+    letter-spacing: 0.5em;
+  }
+  
+  .pirate__name {
+    font-size: 40px;
+    letter-spacing: -0.05em;
+    margin-top: 0px;
+  }
+  
+  .bounty {
+    font-size: 22px;
+    letter-spacing: 0.15em;
+  }
+  
+  .berries {
+    width: 20px;
+    margin-right: 15px;
+  }
+  
+  
+  .footer h4 {
+    text-transform: uppercase;
+    font-size: 6px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    width: 60%;
+  }
+  
+  .marine {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+  }
+
+  .btn__container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 3780px) {
+  .footer h4 {
+    text-transform: uppercase;
+    font-size: 5.5px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    width: 60%;
+  }
+  
+  .marine {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+  }
+}
