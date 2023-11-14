@@ -9,6 +9,7 @@ import styles from "./wantedposter.module.css";
 const WantedPoster = ({ name, image, bounty, handleRegenerate }) => {
   const containerStyle = {
     backgroundImage: `url(${bg.src})`,
+    backgroundColor: "#E7D6B6",
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
